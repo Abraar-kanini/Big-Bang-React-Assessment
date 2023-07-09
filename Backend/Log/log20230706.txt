@@ -1,0 +1,951 @@
+2023-07-06 10:32:49.883 +05:30 [INF] User profile is available. Using 'C:\Users\Welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 10:32:53.124 +05:30 [INF] Now listening on: https://localhost:7092
+2023-07-06 10:32:53.146 +05:30 [INF] Now listening on: http://localhost:5218
+2023-07-06 10:32:53.157 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 10:32:53.160 +05:30 [INF] Hosting environment: Development
+2023-07-06 10:32:53.161 +05:30 [INF] Content root path: C:\Users\Welcome\source\repos\Hospital-Mangement\
+2023-07-06 10:32:57.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/swagger/index.html - -
+2023-07-06 10:33:30.205 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/swagger/index.html - - - 200 - text/html;charset=utf-8 33047.3441ms
+2023-07-06 10:33:31.913 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 10:33:36.963 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 5049.8119ms
+2023-07-06 10:33:39.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/swagger/v1/swagger.json - -
+2023-07-06 10:33:51.865 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12264.2757ms
+2023-07-06 11:11:54.590 +05:30 [INF] User profile is available. Using 'C:\Users\Welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 11:11:55.272 +05:30 [INF] Now listening on: https://localhost:7092
+2023-07-06 11:11:55.309 +05:30 [INF] Now listening on: http://localhost:5218
+2023-07-06 11:11:55.320 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 11:11:55.323 +05:30 [INF] Hosting environment: Development
+2023-07-06 11:11:55.325 +05:30 [INF] Content root path: C:\Users\Welcome\source\repos\Hospital-Mangement\
+2023-07-06 11:12:01.632 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/swagger/index.html - -
+2023-07-06 11:12:04.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/swagger/index.html - - - 200 - text/html;charset=utf-8 3385.0411ms
+2023-07-06 11:12:05.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 11:12:05.075 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 14.2836ms
+2023-07-06 11:12:05.142 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/_vs/browserLink - -
+2023-07-06 11:12:05.329 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 186.9325ms
+2023-07-06 11:12:05.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/swagger/v1/swagger.json - -
+2023-07-06 11:12:06.068 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 581.8075ms
+2023-07-06 11:48:31.254 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 11:48:31.351 +05:30 [INF] CORS policy execution successful.
+2023-07-06 11:48:31.381 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 127.1052ms
+2023-07-06 11:48:31.422 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-06 11:48:31.432 +05:30 [INF] CORS policy execution successful.
+2023-07-06 11:48:32.107 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 11:48:32.466 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 11:48:37.662 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 11:48:37.718 +05:30 [INF] CORS policy execution successful.
+2023-07-06 11:48:37.837 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 175.8942ms
+2023-07-06 11:48:37.851 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-06 11:48:37.930 +05:30 [INF] CORS policy execution successful.
+2023-07-06 11:48:37.957 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 11:48:37.968 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 11:49:06.892 +05:30 [INF] Executed DbCommand (2,136ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 11:49:06.892 +05:30 [INF] Executed DbCommand (2,136ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 11:49:10.855 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 11:49:10.855 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 11:49:10.946 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 32898.6221ms
+2023-07-06 11:49:10.946 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 38383.7426ms
+2023-07-06 11:49:10.974 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 11:49:10.974 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 11:49:11.244 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 200 - text/plain;+charset=utf-8 33393.2380ms
+2023-07-06 11:49:11.244 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 200 - text/plain;+charset=utf-8 39822.6786ms
+2023-07-06 12:03:11.813 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:03:11.858 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:03:11.871 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 57.8190ms
+2023-07-06 12:03:11.886 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 44
+2023-07-06 12:03:11.893 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:03:11.930 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:03:11.941 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:03:13.216 +05:30 [INF] Executed DbCommand (90ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:03:13.254 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:03:13.270 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 1305.7666ms
+2023-07-06 12:03:13.284 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:03:13.301 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 44 - 200 - text/plain;+charset=utf-8 1415.7479ms
+2023-07-06 12:03:23.101 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:03:23.119 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:03:23.129 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 31.8870ms
+2023-07-06 12:03:23.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:03:23.199 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:03:24.250 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:03:24.291 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:03:24.534 +05:30 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:03:24.880 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:03:25.068 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 744.6052ms
+2023-07-06 12:03:25.078 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:03:25.124 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:03:25.131 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:03:25.153 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 1995.7741ms
+2023-07-06 12:03:25.156 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:03:25.180 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:03:25.326 +05:30 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:03:25.395 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:03:25.413 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 201.8912ms
+2023-07-06 12:03:25.428 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:03:25.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 459.4301ms
+2023-07-06 12:03:25.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg - -
+2023-07-06 12:03:25.796 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg - -
+2023-07-06 12:03:25.922 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg - -
+2023-07-06 12:03:25.922 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg - -
+2023-07-06 12:03:25.922 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg - -
+2023-07-06 12:03:25.987 +05:30 [INF] The file /uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg was not modified
+2023-07-06 12:03:25.987 +05:30 [INF] The file /uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg was not modified
+2023-07-06 12:03:25.987 +05:30 [INF] The file /uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg was not modified
+2023-07-06 12:03:25.987 +05:30 [INF] The file /uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg was not modified
+2023-07-06 12:03:25.987 +05:30 [INF] The file /uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg was not modified
+2023-07-06 12:03:26.003 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg - - - 304 - image/jpeg 94.2475ms
+2023-07-06 12:03:26.009 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg - - - 304 - image/jpeg 87.4529ms
+2023-07-06 12:03:26.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg - - - 304 - image/jpeg 289.0121ms
+2023-07-06 12:03:26.047 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg - - - 304 - image/jpeg 250.8744ms
+2023-07-06 12:03:26.123 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg - - - 304 - image/jpeg 201.1792ms
+2023-07-06 12:05:12.445 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:05:12.505 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:12.578 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 133.0449ms
+2023-07-06 12:05:12.726 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Patients application/json 212
+2023-07-06 12:05:12.834 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:12.849 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-06 12:05:12.886 +05:30 [INF] Route matched with {action = "PostPatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Patient]] PostPatient(Hospital_Mangement.Models.Patient) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:05:14.974 +05:30 [INF] Executed DbCommand (294ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [patients] ([BookingDate], [BookingTime], [Docter_Id], [DoctorDocter_Id], [Patient_Address], [Patient_Age], [Patient_Disease], [Patient_Name], [Patient_PhoneNumber])
+OUTPUT INSERTED.[Patient_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-06 12:05:16.194 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hospital_Mangement.Models.Patient'.
+2023-07-06 12:05:16.553 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement) in 3641.4795ms
+2023-07-06 12:05:16.617 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-06 12:05:16.634 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Patients application/json 212 - 201 - application/json;+charset=utf-8 3907.6903ms
+2023-07-06 12:05:17.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:05:17.660 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:17.690 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:17.792 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:05:18.071 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:05:18.281 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:05:18.360 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 462.9086ms
+2023-07-06 12:05:18.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:05:18.433 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:18.441 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:18.457 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1273.8586ms
+2023-07-06 12:05:18.475 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:18.528 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:05:18.706 +05:30 [INF] Executed DbCommand (138ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:05:18.742 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:05:18.763 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 202.8832ms
+2023-07-06 12:05:18.778 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:18.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 379.1633ms
+2023-07-06 12:05:32.696 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:05:32.888 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:32.904 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 208.0813ms
+2023-07-06 12:05:33.006 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-06 12:05:33.064 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:33.114 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:05:33.137 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:05:33.198 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:05:33.250 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:05:33.264 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 105.7202ms
+2023-07-06 12:05:33.281 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:05:33.294 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 200 - text/plain;+charset=utf-8 287.8377ms
+2023-07-06 12:05:39.855 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:05:39.872 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:05:39.955 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:39.975 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:39.991 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 136.1452ms
+2023-07-06 12:05:40.004 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 132.2960ms
+2023-07-06 12:05:40.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:05:40.155 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:40.406 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:05:40.423 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:05:40.562 +05:30 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:05:40.609 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:05:40.633 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 167.4071ms
+2023-07-06 12:05:40.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:05:40.773 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:05:40.804 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:40.853 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 769.4328ms
+2023-07-06 12:05:40.853 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:05:40.908 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:05:40.936 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:05:40.958 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:41.022 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 114.4567ms
+2023-07-06 12:05:41.039 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:05:41.088 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:05:41.266 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:05:41.282 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:41.304 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 305.8234ms
+2023-07-06 12:05:41.318 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:41.366 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:05:41.376 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 704.9469ms
+2023-07-06 12:05:41.397 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:05:41.491 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:05:41.532 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:05:41.550 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 126.4324ms
+2023-07-06 12:05:41.571 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:05:41.586 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:41.595 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:05:41.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 521.1985ms
+2023-07-06 12:05:41.626 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:41.645 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:05:41.690 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:05:41.722 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:05:41.742 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 74.8008ms
+2023-07-06 12:05:41.860 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:05:41.870 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 299.0978ms
+2023-07-06 12:16:22.478 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients/135 - -
+2023-07-06 12:16:22.491 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:16:22.502 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients/135 - - - 204 - - 24.2537ms
+2023-07-06 12:16:22.550 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7092/api/Patients/135 - -
+2023-07-06 12:16:22.603 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:16:22.616 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:16:22.655 +05:30 [INF] Route matched with {action = "DeletePatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePatient(Int32) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:16:23.467 +05:30 [INF] Executed DbCommand (106ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+WHERE [p].[Patient_Id] = @__p_0
+2023-07-06 12:16:23.729 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [patients]
+OUTPUT 1
+WHERE [Patient_Id] = @p0;
+2023-07-06 12:16:23.904 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-06 12:16:23.955 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement) in 1273.7363ms
+2023-07-06 12:16:23.971 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:16:23.985 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7092/api/Patients/135 - - - 204 - - 1435.1791ms
+2023-07-06 12:16:30.131 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients/134 - -
+2023-07-06 12:16:30.143 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:16:30.156 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients/134 - - - 204 - - 25.4578ms
+2023-07-06 12:16:30.173 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7092/api/Patients/134 - -
+2023-07-06 12:16:30.182 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:16:30.190 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:16:30.200 +05:30 [INF] Route matched with {action = "DeletePatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePatient(Int32) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:16:30.242 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+WHERE [p].[Patient_Id] = @__p_0
+2023-07-06 12:16:30.275 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [patients]
+OUTPUT 1
+WHERE [Patient_Id] = @p0;
+2023-07-06 12:16:30.301 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-06 12:16:30.314 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement) in 96.6338ms
+2023-07-06 12:16:30.332 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:16:30.345 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7092/api/Patients/134 - - - 204 - - 171.8565ms
+2023-07-06 12:16:31.888 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients/133 - -
+2023-07-06 12:16:31.904 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:16:31.918 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients/133 - - - 204 - - 31.2245ms
+2023-07-06 12:16:31.944 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7092/api/Patients/133 - -
+2023-07-06 12:16:31.992 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:16:32.003 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:16:32.011 +05:30 [INF] Route matched with {action = "DeletePatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePatient(Int32) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:16:32.047 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+WHERE [p].[Patient_Id] = @__p_0
+2023-07-06 12:16:32.101 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [patients]
+OUTPUT 1
+WHERE [Patient_Id] = @p0;
+2023-07-06 12:16:32.152 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-06 12:16:32.161 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement) in 129.4211ms
+2023-07-06 12:16:32.175 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:16:32.186 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7092/api/Patients/133 - - - 204 - - 248.6543ms
+2023-07-06 12:30:41.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/User - -
+2023-07-06 12:30:45.256 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.UserController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:30:48.206 +05:30 [INF] Route matched with {action = "Getpatients", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.User]]] Getpatients() on controller Hospital_Mangement.Controllers.UserController (Hospital-Mangement).
+2023-07-06 12:31:06.697 +05:30 [INF] Executed DbCommand (941ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+2023-07-06 12:31:11.552 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.User, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:31:12.030 +05:30 [INF] Executed action Hospital_Mangement.Controllers.UserController.Getpatients (Hospital-Mangement) in 19867.4208ms
+2023-07-06 12:31:15.720 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.UserController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:31:16.129 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/User - - - 200 - application/json;+charset=utf-8 34152.3976ms
+2023-07-06 12:33:26.014 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:33:26.118 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:26.134 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 122.7716ms
+2023-07-06 12:33:26.169 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-06 12:33:26.249 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:26.271 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:33:26.301 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:33:28.349 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-06 12:33:29.001 +05:30 [INF] Executed DbCommand (1,430ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:33:29.177 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:29.222 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:33:29.232 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:33:29.252 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 2895.6864ms
+2023-07-06 12:33:29.267 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:33:29.285 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:33:29.389 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 3219.0016ms
+2023-07-06 12:33:29.504 +05:30 [INF] Executed DbCommand (68ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:33:30.672 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:33:30.716 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 1284.9525ms
+2023-07-06 12:33:30.738 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:33:30.758 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 2406.8116ms
+2023-07-06 12:33:48.602 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:33:48.802 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:33:49.238 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:49.260 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:49.279 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 680.2816ms
+2023-07-06 12:33:49.312 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 509.8787ms
+2023-07-06 12:33:49.692 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:33:49.746 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:49.762 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:33:49.805 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:33:50.400 +05:30 [INF] Executed DbCommand (489ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:33:50.637 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:33:50.733 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 846.9942ms
+2023-07-06 12:33:51.133 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:33:51.668 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:33:51.693 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:33:51.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2027.0163ms
+2023-07-06 12:33:51.749 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:33:51.801 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:33:52.068 +05:30 [INF] Executed DbCommand (199ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:33:53.167 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:33:53.290 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 1430.5801ms
+2023-07-06 12:33:53.366 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:33:53.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2261.1806ms
+2023-07-06 12:33:59.517 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor/10 - -
+2023-07-06 12:33:59.576 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:34:00.130 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor/10 - - - 204 - - 615.5417ms
+2023-07-06 12:34:00.295 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7092/api/Doctor/10 - -
+2023-07-06 12:34:00.420 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:34:00.437 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.DeleteEmployee (Hospital-Mangement)'
+2023-07-06 12:34:00.535 +05:30 [INF] Route matched with {action = "DeleteEmployee", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteEmployee(Int32) on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:34:01.202 +05:30 [INF] Executed DbCommand (434ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+WHERE [d].[Docter_Id] = @__p_0
+2023-07-06 12:34:02.400 +05:30 [INF] Executed DbCommand (502ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [doctors]
+OUTPUT 1
+WHERE [Docter_Id] = @p0;
+2023-07-06 12:34:03.343 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-06 12:34:03.732 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.DeleteEmployee (Hospital-Mangement) in 3136.7708ms
+2023-07-06 12:34:03.775 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.DeleteEmployee (Hospital-Mangement)'
+2023-07-06 12:34:03.807 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7092/api/Doctor/10 - - - 204 - - 3512.7679ms
+2023-07-06 12:35:09.348 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:35:09.379 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:35:09.413 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 65.6787ms
+2023-07-06 12:35:09.729 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Doctor multipart/form-data;+boundary=----WebKitFormBoundaryWUUEATJ3h9JujPa5 182629
+2023-07-06 12:35:09.809 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:35:09.832 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.CreateDoctor (Hospital-Mangement)'
+2023-07-06 12:35:10.306 +05:30 [INF] Route matched with {action = "CreateDoctor", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Doctor]] CreateDoctor(Hospital_Mangement.Models.Doctor, Microsoft.AspNetCore.Http.IFormFile) on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:35:15.604 +05:30 [INF] Executed DbCommand (520ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [doctors] ([DocImagePath], [Docter_Email], [Docter_Phone], [Docter_Specialist], [Doctor_Name])
+OUTPUT INSERTED.[Docter_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-07-06 12:35:17.308 +05:30 [INF] Executing ObjectResult, writing value of type 'Hospital_Mangement.Models.Doctor'.
+2023-07-06 12:35:17.924 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.CreateDoctor (Hospital-Mangement) in 7378.4555ms
+2023-07-06 12:35:18.129 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.CreateDoctor (Hospital-Mangement)'
+2023-07-06 12:35:18.245 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Doctor multipart/form-data;+boundary=----WebKitFormBoundaryWUUEATJ3h9JujPa5 182629 - 200 - application/json;+charset=utf-8 8516.6452ms
+2023-07-06 12:35:22.060 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:35:22.227 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:35:22.892 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:35:22.927 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:35:22.943 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 883.0819ms
+2023-07-06 12:35:22.956 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 728.4785ms
+2023-07-06 12:35:23.160 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:35:23.344 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:35:23.505 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:35:23.938 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:35:24.559 +05:30 [INF] Executed DbCommand (251ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:35:24.954 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:35:25.156 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 861.5615ms
+2023-07-06 12:35:25.269 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:35:25.394 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:35:25.414 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:35:25.489 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:35:25.491 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2331.3212ms
+2023-07-06 12:35:25.511 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:35:26.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - -
+2023-07-06 12:35:26.273 +05:30 [INF] Executed DbCommand (686ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:35:26.465 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:35:26.502 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 924.328ms
+2023-07-06 12:35:26.913 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:35:27.759 +05:30 [INF] Sending file. Request path: '/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg'. Physical path: 'C:\Users\Welcome\source\repos\Hospital-Mangement\wwwroot\uploads\doctor\a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg'
+2023-07-06 12:35:27.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2563.7692ms
+2023-07-06 12:35:27.890 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - - - 200 181998 image/jpeg 1630.6836ms
+2023-07-06 12:36:07.169 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/User - -
+2023-07-06 12:36:07.440 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:08.108 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.UserController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:36:08.415 +05:30 [INF] Route matched with {action = "Getpatients", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.User]]] Getpatients() on controller Hospital_Mangement.Controllers.UserController (Hospital-Mangement).
+2023-07-06 12:36:09.367 +05:30 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+2023-07-06 12:36:09.592 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.User, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:36:09.753 +05:30 [INF] Executed action Hospital_Mangement.Controllers.UserController.Getpatients (Hospital-Mangement) in 609.2284ms
+2023-07-06 12:36:10.507 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.UserController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:36:10.773 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/User - - - 200 - application/json;+charset=utf-8 3603.7571ms
+2023-07-06 12:36:11.437 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/User/register - -
+2023-07-06 12:36:11.706 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:11.721 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/User/register - - - 204 - - 283.6133ms
+2023-07-06 12:36:11.787 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/User/register application/json 51
+2023-07-06 12:36:11.825 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:11.924 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.UserController.Register (Hospital-Mangement)'
+2023-07-06 12:36:12.041 +05:30 [INF] Route matched with {action = "Register", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.User]] Register(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.UserController (Hospital-Mangement).
+2023-07-06 12:36:12.624 +05:30 [INF] Executed DbCommand (149ms) [Parameters=[@p0='?' (Size = 8000) (DbType = Binary), @p1='?' (Size = 8000) (DbType = Binary), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [users] ([PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-07-06 12:36:12.808 +05:30 [INF] Executing OkObjectResult, writing value of type 'Hospital_Mangement.Models.User'.
+2023-07-06 12:36:13.090 +05:30 [INF] Executed action Hospital_Mangement.Controllers.UserController.Register (Hospital-Mangement) in 764.9185ms
+2023-07-06 12:36:13.171 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.UserController.Register (Hospital-Mangement)'
+2023-07-06 12:36:13.310 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/User/register application/json 51 - 200 - application/json;+charset=utf-8 1522.4093ms
+2023-07-06 12:36:21.724 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:36:21.765 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:21.801 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 75.8317ms
+2023-07-06 12:36:22.123 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 51
+2023-07-06 12:36:22.172 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:22.189 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:36:22.210 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:36:22.381 +05:30 [INF] Executed DbCommand (112ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:36:22.438 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:36:22.464 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 212.6325ms
+2023-07-06 12:36:22.519 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:36:22.652 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 51 - 200 - text/plain;+charset=utf-8 529.0555ms
+2023-07-06 12:36:57.821 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:36:57.852 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:57.871 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 50.2038ms
+2023-07-06 12:36:58.121 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 44
+2023-07-06 12:36:58.167 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:36:58.185 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:36:58.215 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:36:58.403 +05:30 [INF] Executed DbCommand (123ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:36:58.469 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:36:58.513 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 246.9151ms
+2023-07-06 12:36:58.553 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:36:58.583 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 44 - 200 - text/plain;+charset=utf-8 449.1795ms
+2023-07-06 12:37:12.314 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:37:12.315 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:37:12.635 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:12.649 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:12.666 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 351.6132ms
+2023-07-06 12:37:12.675 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 361.6128ms
+2023-07-06 12:37:12.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:37:12.782 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:12.798 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:37:12.815 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:37:12.903 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:37:12.947 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:37:13.069 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 199.6413ms
+2023-07-06 12:37:13.119 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:37:13.305 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:37:13.319 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:13.346 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 627.8674ms
+2023-07-06 12:37:13.362 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:37:13.394 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:37:13.451 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:37:13.552 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:37:13.888 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - -
+2023-07-06 12:37:14.102 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 672.9774ms
+2023-07-06 12:37:14.482 +05:30 [INF] The file /uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg was not modified
+2023-07-06 12:37:14.516 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:37:14.535 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - - - 304 - image/jpeg 648.1094ms
+2023-07-06 12:37:14.551 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 1431.7005ms
+2023-07-06 12:37:47.698 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:37:47.951 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:47.981 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 283.5555ms
+2023-07-06 12:37:48.017 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Patients application/json 221
+2023-07-06 12:37:48.108 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:48.125 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-06 12:37:48.145 +05:30 [INF] Route matched with {action = "PostPatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Patient]] PostPatient(Hospital_Mangement.Models.Patient) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:37:48.383 +05:30 [INF] Executed DbCommand (189ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [patients] ([BookingDate], [BookingTime], [Docter_Id], [DoctorDocter_Id], [Patient_Address], [Patient_Age], [Patient_Disease], [Patient_Name], [Patient_PhoneNumber])
+OUTPUT INSERTED.[Patient_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-06 12:37:48.435 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hospital_Mangement.Models.Patient'.
+2023-07-06 12:37:48.469 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement) in 288.6775ms
+2023-07-06 12:37:48.516 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-06 12:37:48.552 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Patients application/json 221 - 201 - application/json;+charset=utf-8 534.4613ms
+2023-07-06 12:37:49.311 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:37:49.612 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:49.629 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:37:49.655 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:37:50.068 +05:30 [INF] Executed DbCommand (301ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:37:50.228 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:37:50.316 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 598.933ms
+2023-07-06 12:37:50.558 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:37:50.872 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:37:50.917 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:37:50.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1631.4035ms
+2023-07-06 12:37:50.957 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:37:51.029 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:37:51.500 +05:30 [INF] Executed DbCommand (433ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:37:51.580 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:37:51.607 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 551.8522ms
+2023-07-06 12:37:51.684 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:37:51.727 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1168.6921ms
+2023-07-06 12:38:17.532 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:38:17.580 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:17.597 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 65.1136ms
+2023-07-06 12:38:17.695 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 51
+2023-07-06 12:38:17.710 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:17.739 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:38:17.760 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:38:17.901 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:38:18.053 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:38:18.116 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 281.7377ms
+2023-07-06 12:38:18.138 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:38:18.163 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 51 - 200 - text/plain;+charset=utf-8 467.7375ms
+2023-07-06 12:38:30.901 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:38:30.908 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:38:31.022 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:31.035 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:31.048 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 149.7793ms
+2023-07-06 12:38:31.060 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 151.8620ms
+2023-07-06 12:38:31.100 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:38:31.115 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:31.148 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:38:31.228 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:38:31.366 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:38:31.432 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:38:31.492 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 182.5558ms
+2023-07-06 12:38:31.616 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:38:31.678 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:38:31.696 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:31.714 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 614.9408ms
+2023-07-06 12:38:31.831 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:38:31.833 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:38:31.861 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:38:31.874 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:31.962 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 130.5765ms
+2023-07-06 12:38:31.996 +05:30 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:38:32.049 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:38:32.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:38:32.073 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 164.7096ms
+2023-07-06 12:38:32.090 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:32.129 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:38:32.147 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:38:32.163 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 547.3455ms
+2023-07-06 12:38:32.195 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:38:32.316 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:38:32.397 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:38:32.427 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 170.9261ms
+2023-07-06 12:38:32.458 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:38:32.496 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:38:32.511 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:38:32.529 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 471.0826ms
+2023-07-06 12:38:32.560 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:38:32.598 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:38:32.731 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:38:32.793 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:38:32.840 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 197.3371ms
+2023-07-06 12:38:32.892 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:38:32.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 454.8745ms
+2023-07-06 12:39:14.880 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients/136 - -
+2023-07-06 12:39:15.065 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:15.112 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients/136 - - - 204 - - 232.6618ms
+2023-07-06 12:39:15.165 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7092/api/Patients/136 - -
+2023-07-06 12:39:15.259 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:15.280 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:39:15.298 +05:30 [INF] Route matched with {action = "DeletePatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePatient(Int32) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:39:15.441 +05:30 [INF] Executed DbCommand (83ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+WHERE [p].[Patient_Id] = @__p_0
+2023-07-06 12:39:15.547 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [patients]
+OUTPUT 1
+WHERE [Patient_Id] = @p0;
+2023-07-06 12:39:15.698 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-06 12:39:15.721 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement) in 379.8116ms
+2023-07-06 12:39:15.758 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:39:15.779 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7092/api/Patients/136 - - - 204 - - 614.5907ms
+2023-07-06 12:39:37.086 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:39:38.775 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:38.821 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 1734.1417ms
+2023-07-06 12:39:38.891 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 44
+2023-07-06 12:39:38.934 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:38.956 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:39:39.033 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:39:39.526 +05:30 [INF] Executed DbCommand (116ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:39:39.675 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:39:39.712 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 319.4557ms
+2023-07-06 12:39:39.739 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:39:39.773 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 44 - 200 - text/plain;+charset=utf-8 881.3533ms
+2023-07-06 12:39:46.852 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:39:47.618 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:39:48.369 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:48.390 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:48.406 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 1553.5780ms
+2023-07-06 12:39:48.428 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 810.3878ms
+2023-07-06 12:39:48.602 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:39:49.450 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:49.474 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:39:49.506 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:39:49.734 +05:30 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:39:49.863 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:39:49.955 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 321.029ms
+2023-07-06 12:39:50.026 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:39:50.635 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:39:50.673 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:39:50.692 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 2089.7919ms
+2023-07-06 12:39:50.709 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:39:50.912 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:39:51.021 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:39:51.083 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:39:51.135 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 158.8439ms
+2023-07-06 12:39:51.175 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:39:51.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1167.5618ms
+2023-07-06 12:49:07.681 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:49:07.683 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:49:07.712 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:49:07.716 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:49:07.735 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 54.8523ms
+2023-07-06 12:49:07.763 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 79.9153ms
+2023-07-06 12:49:07.784 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:49:07.810 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:49:07.831 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:49:07.864 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:49:09.380 +05:30 [INF] Executed DbCommand (226ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:49:09.452 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:49:09.499 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 1584.3511ms
+2023-07-06 12:49:09.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:49:09.649 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:49:09.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 1880.2637ms
+2023-07-06 12:49:09.705 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:49:09.717 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:49:09.733 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:49:09.951 +05:30 [INF] Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:49:10.483 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - -
+2023-07-06 12:49:11.578 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:49:11.599 +05:30 [INF] The file /uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg was not modified
+2023-07-06 12:49:11.617 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 1839.5415ms
+2023-07-06 12:49:11.632 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - - - 304 - image/jpeg 1148.8378ms
+2023-07-06 12:49:11.651 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:49:11.732 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2130.8391ms
+2023-07-06 12:57:13.728 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:57:13.907 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:57:13.944 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 209.4646ms
+2023-07-06 12:57:13.961 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 44
+2023-07-06 12:57:13.990 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:57:13.998 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:57:14.015 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:57:15.664 +05:30 [INF] Executed DbCommand (364ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:57:16.161 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:57:16.219 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 2164.8477ms
+2023-07-06 12:57:16.258 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:57:16.293 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 44 - 200 - text/plain;+charset=utf-8 2332.0487ms
+2023-07-06 12:57:32.569 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:57:32.569 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:57:32.605 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:57:32.614 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:57:32.629 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 60.5239ms
+2023-07-06 12:57:32.643 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 74.6884ms
+2023-07-06 12:57:32.682 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:57:32.706 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:57:32.722 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:57:32.745 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:57:33.040 +05:30 [INF] Executed DbCommand (146ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:57:33.096 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:57:33.144 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 266.8832ms
+2023-07-06 12:57:33.213 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:57:33.229 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:57:33.244 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:57:33.261 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 580.7688ms
+2023-07-06 12:57:33.277 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:57:33.308 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:57:33.449 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:57:33.913 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:57:34.124 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 776.2416ms
+2023-07-06 12:57:34.166 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:57:34.191 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 978.0545ms
+2023-07-06 12:58:07.643 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:58:07.986 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:08.016 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 371.9511ms
+2023-07-06 12:58:08.078 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Patients application/json 210
+2023-07-06 12:58:08.187 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:08.253 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-06 12:58:08.307 +05:30 [INF] Route matched with {action = "PostPatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Patient]] PostPatient(Hospital_Mangement.Models.Patient) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:58:08.524 +05:30 [INF] Executed DbCommand (164ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [patients] ([BookingDate], [BookingTime], [Docter_Id], [DoctorDocter_Id], [Patient_Address], [Patient_Age], [Patient_Disease], [Patient_Name], [Patient_PhoneNumber])
+OUTPUT INSERTED.[Patient_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-06 12:58:08.591 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hospital_Mangement.Models.Patient'.
+2023-07-06 12:58:08.611 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement) in 263.6153ms
+2023-07-06 12:58:08.688 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-06 12:58:08.707 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Patients application/json 210 - 201 - application/json;+charset=utf-8 628.5370ms
+2023-07-06 12:58:09.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:58:09.343 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:09.623 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:09.704 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:58:10.176 +05:30 [INF] Executed DbCommand (320ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:58:10.384 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:58:10.477 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 682.6275ms
+2023-07-06 12:58:10.500 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:58:10.558 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:10.575 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:10.588 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1327.3573ms
+2023-07-06 12:58:10.604 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:10.638 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:58:10.821 +05:30 [INF] Executed DbCommand (123ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:58:10.875 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:58:10.906 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 233.0766ms
+2023-07-06 12:58:10.941 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:10.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 455.0988ms
+2023-07-06 12:58:30.458 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:58:30.610 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:30.643 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 185.1781ms
+2023-07-06 12:58:30.776 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 51
+2023-07-06 12:58:30.823 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:30.840 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:58:30.861 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:58:31.102 +05:30 [INF] Executed DbCommand (183ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:58:31.171 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:58:31.208 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 305.0593ms
+2023-07-06 12:58:31.239 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:58:31.261 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 51 - 200 - text/plain;+charset=utf-8 485.1462ms
+2023-07-06 12:58:41.408 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:58:41.441 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:58:41.519 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:41.537 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:41.563 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 155.0703ms
+2023-07-06 12:58:41.617 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 174.9371ms
+2023-07-06 12:58:41.790 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:58:41.988 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:42.026 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:58:42.056 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:58:42.319 +05:30 [INF] Executed DbCommand (178ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:58:42.385 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:58:42.406 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 280.9116ms
+2023-07-06 12:58:42.425 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:58:42.451 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:58:42.465 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:42.489 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 699.4269ms
+2023-07-06 12:58:42.503 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:58:42.538 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:58:42.586 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:58:42.639 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:42.653 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:58:42.657 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 70.7450ms
+2023-07-06 12:58:42.692 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:58:42.703 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:58:42.742 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:42.766 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:42.791 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 197.5789ms
+2023-07-06 12:58:42.811 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:58:42.839 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:58:42.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 438.3855ms
+2023-07-06 12:58:43.025 +05:30 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:58:43.106 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:58:43.155 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 233.2693ms
+2023-07-06 12:58:43.175 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:58:43.213 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:43.219 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:43.238 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 546.1869ms
+2023-07-06 12:58:43.257 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:43.303 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:58:43.435 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:58:43.511 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:58:43.567 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 196.64ms
+2023-07-06 12:58:43.701 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:58:43.724 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 553.3014ms
+2023-07-06 12:58:49.137 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients/137 - -
+2023-07-06 12:58:49.165 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:49.191 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients/137 - - - 204 - - 54.7697ms
+2023-07-06 12:58:49.226 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7092/api/Patients/137 - -
+2023-07-06 12:58:49.265 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:58:49.292 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:58:49.306 +05:30 [INF] Route matched with {action = "DeletePatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeletePatient(Int32) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:58:49.432 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+WHERE [p].[Patient_Id] = @__p_0
+2023-07-06 12:58:49.576 +05:30 [INF] Executed DbCommand (87ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [patients]
+OUTPUT 1
+WHERE [Patient_Id] = @p0;
+2023-07-06 12:58:49.692 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-07-06 12:58:49.756 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement) in 414.8886ms
+2023-07-06 12:58:49.787 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.DeletePatient (Hospital-Mangement)'
+2023-07-06 12:58:49.827 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7092/api/Patients/137 - - - 204 - - 601.3463ms
+2023-07-06 12:59:19.185 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-06 12:59:19.273 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:19.299 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 126.7718ms
+2023-07-06 12:59:19.372 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-06 12:59:19.390 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:19.413 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:59:19.441 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-06 12:59:19.889 +05:30 [INF] Executed DbCommand (168ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-06 12:59:19.989 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-06 12:59:20.056 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 350.4613ms
+2023-07-06 12:59:20.089 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-06 12:59:20.118 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 746.4248ms
+2023-07-06 12:59:36.018 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:59:36.074 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-06 12:59:36.149 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:36.155 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:36.170 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 152.3828ms
+2023-07-06 12:59:36.185 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 110.7861ms
+2023-07-06 12:59:36.547 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:59:36.746 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:36.785 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:59:37.162 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:59:37.538 +05:30 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:59:37.749 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:59:37.803 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 367.1191ms
+2023-07-06 12:59:37.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-06 12:59:38.068 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:59:38.092 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:38.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 1920.1022ms
+2023-07-06 12:59:38.491 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:59:38.545 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-06 12:59:38.887 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - -
+2023-07-06 12:59:38.890 +05:30 [INF] Executed DbCommand (284ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-06 12:59:39.032 +05:30 [INF] The file /uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg was not modified
+2023-07-06 12:59:39.116 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:59:39.133 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/a255d3a5-7f93-47fe-a268-ee6eb1ab1cdf.jpg - - - 304 - image/jpeg 245.3369ms
+2023-07-06 12:59:39.153 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 554.622ms
+2023-07-06 12:59:39.199 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-06 12:59:39.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 1312.3965ms
+2023-07-06 12:59:58.450 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:59:58.451 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-06 12:59:58.502 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:58.517 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:58.547 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 96.3054ms
+2023-07-06 12:59:58.567 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 115.9922ms
+2023-07-06 12:59:58.732 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:59:58.797 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:58.820 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:59:58.853 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:59:59.185 +05:30 [INF] Executed DbCommand (237ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 12:59:59.451 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 12:59:59.519 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 585.0607ms
+2023-07-06 12:59:59.572 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-06 12:59:59.633 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:59:59.649 +05:30 [INF] CORS policy execution successful.
+2023-07-06 12:59:59.696 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 963.2389ms
+2023-07-06 12:59:59.699 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 12:59:59.764 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-06 12:59:59.922 +05:30 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-06 13:00:00.407 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 13:00:00.570 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 752.1869ms
+2023-07-06 13:00:00.611 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-06 13:00:00.649 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1060.4805ms

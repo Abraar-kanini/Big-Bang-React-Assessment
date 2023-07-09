@@ -1,0 +1,1121 @@
+2023-07-05 12:22:17.299 +05:30 [INF] User profile is available. Using 'C:\Users\Welcome\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-05 12:22:22.266 +05:30 [INF] Now listening on: https://localhost:7092
+2023-07-05 12:22:22.301 +05:30 [INF] Now listening on: http://localhost:5218
+2023-07-05 12:22:22.345 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-05 12:22:22.374 +05:30 [INF] Hosting environment: Development
+2023-07-05 12:22:22.451 +05:30 [INF] Content root path: C:\Users\Welcome\source\repos\Hospital-Mangement\
+2023-07-05 12:25:05.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/swagger/index.html - -
+2023-07-05 12:25:36.112 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/swagger/index.html - - - 200 - text/html;charset=utf-8 30585.5991ms
+2023-07-05 12:25:37.649 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/_framework/aspnetcore-browser-refresh.js - -
+2023-07-05 12:25:40.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/_vs/browserLink - -
+2023-07-05 12:25:45.818 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 8169.2995ms
+2023-07-05 12:25:56.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16159.8275ms
+2023-07-05 12:25:59.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/swagger/v1/swagger.json - -
+2023-07-05 12:26:11.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11892.9472ms
+2023-07-05 12:38:50.331 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:38:51.349 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:38:51.479 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 1147.2573ms
+2023-07-05 12:38:51.546 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-05 12:38:51.826 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:38:55.553 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:38:57.419 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:39:03.557 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:39:03.565 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:39:03.846 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:03.865 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:03.878 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 321.0123ms
+2023-07-05 12:39:04.512 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-05 12:39:05.873 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 2308.1687ms
+2023-07-05 12:39:06.344 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:39:08.442 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:39:09.472 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:09.487 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:09.506 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:09.522 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:39:09.526 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:39:09.543 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:39:11.509 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:39:13.360 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:39:15.405 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:24.903 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:39:28.679 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:39:31.399 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:39:31.770 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:39:31.780 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:31.826 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 3146.3796ms
+2023-07-05 12:39:31.838 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:39:31.851 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:39:32.604 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:39:34.371 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:39:59.707 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:03.770 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:09.016 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:40:12.488 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 41528.6421ms
+2023-07-05 12:40:20.856 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 377.6087ms
+2023-07-05 12:40:22.246 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:25.368 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:26.487 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:40:26.521 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:40:26.522 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 65.6637ms
+2023-07-05 12:40:26.673 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 85.3202ms
+2023-07-05 12:40:26.824 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 52.9582ms
+2023-07-05 12:40:26.954 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:26.988 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:27.021 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:27.097 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The client reset the request stream.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.JsonSerializer.ReadFromStreamAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-05 12:40:27.116 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The client reset the request stream.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.JsonSerializer.ReadFromStreamAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-05 12:40:27.163 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The client reset the request stream.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.JsonSerializer.ReadFromStreamAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-05 12:40:27.223 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:34.673 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:40:36.505 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:36.778 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 85268.9720ms
+2023-07-05 12:40:36.838 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 64234.5176ms
+2023-07-05 12:40:37.707 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 63337.4908ms
+2023-07-05 12:40:37.755 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.IOException: The client reset the request stream.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.ReadBufferState.ReadFromStreamAsync(Stream utf8Json, CancellationToken cancellationToken, Boolean fillBuffer)
+   at System.Text.Json.JsonSerializer.ReadFromStreamAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-05 12:40:37.770 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 3096.5513ms
+2023-07-05 12:40:37.799 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:40:37.816 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:40:37.939 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:40:40.100 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 91657.4060ms
+2023-07-05 12:40:40.301 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:40.507 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:40.532 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:41.072 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 3272.4385ms
+2023-07-05 12:40:41.091 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 3275.2779ms
+2023-07-05 12:40:41.115 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:41.163 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:40:41.357 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:40:41.370 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:40:43.538 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:43.564 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:40:43.597 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:43.604 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:40:43.630 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:40:43.644 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:41:30.067 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:41:37.396 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:41:41.218 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 11150.9127ms
+2023-07-05 12:41:42.316 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:42:20.716 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:42:28.303 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:42:32.953 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:42:46.701 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:46.701 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:46.701 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:46.702 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:46.703 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:46.703 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:46.703 +05:30 [ERR] An error occurred using the connection to database 'HospitalManagement8' on server 'DESKTOP-UJI9NUJ\SQLEXPRESS'.
+2023-07-05 12:42:52.776 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:42:55.311 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:42:57.156 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:08.975 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 145301.8022ms
+2023-07-05 12:43:20.532 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 45491.3096ms
+2023-07-05 12:43:22.708 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:43:31.089 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 169889.726ms
+2023-07-05 12:43:32.653 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:43:33.246 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:43:33.685 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:33.872 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:33.902 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:34.330 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:34.402 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:34.423 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:34.424 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Hospital_Mangement.Data.HospitalDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:43:37.873 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 115557.6058ms
+2023-07-05 12:43:51.407 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 190049.6393ms
+2023-07-05 12:43:55.008 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 197069.1464ms
+2023-07-05 12:43:57.988 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 262325.7037ms
+2023-07-05 12:44:03.687 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 283512.8301ms
+2023-07-05 12:44:03.822 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:44:04.157 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:44:04.276 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:44:07.179 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 203485.0267ms
+2023-07-05 12:44:10.671 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 313151.5224ms
+2023-07-05 12:44:14.549 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 308204.9294ms
+2023-07-05 12:44:15.220 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:44:18.704 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:44:19.551 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:44:21.312 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 500 - text/plain;+charset=utf-8 316800.8620ms
+2023-07-05 12:44:21.535 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:44:21.571 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6211; handshake=1802; [Login] initialization=1229; authentication=445; [Post-Login] complete=7985; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Hospital_Mangement.Controllers.TokenController.GetUser(String username, String password) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 54
+   at Hospital_Mangement.Controllers.TokenController.Post(UserDto userData) in C:\Users\Welcome\source\repos\Hospital-Mangement\Controllers\TokenController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:3f722681-4bda-473f-9a09-a5761c88d711
+Error Number:-2,State:0,Class:11
+2023-07-05 12:44:30.402 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 500 - text/plain;+charset=utf-8 338856.3509ms
+2023-07-05 12:44:34.902 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 500 - text/plain;+charset=utf-8 233532.6643ms
+2023-07-05 12:48:05.389 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:48:05.689 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:48:05.924 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:48:05.949 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:48:05.969 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 579.3662ms
+2023-07-05 12:48:06.014 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 321.0862ms
+2023-07-05 12:48:06.125 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:48:07.670 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:48:07.673 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:48:07.780 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:48:07.814 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:48:07.838 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:48:07.855 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:48:07.918 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:48:19.454 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:48:20.737 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:48:21.063 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 1608.5012ms
+2023-07-05 12:48:21.251 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:48:24.032 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:48:24.045 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:48:24.062 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:48:27.520 +05:30 [INF] Executed DbCommand (6,136ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:48:27.520 +05:30 [INF] Executed DbCommand (2,134ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:48:27.521 +05:30 [INF] Executed DbCommand (5,869ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:48:37.153 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:48:37.153 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:48:37.153 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:48:37.220 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 29324.7345ms
+2023-07-05 12:48:37.222 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 28142.7557ms
+2023-07-05 12:48:37.382 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:48:37.469 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 13253.0927ms
+2023-07-05 12:48:37.495 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 31369.9191ms
+2023-07-05 12:48:37.693 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:48:37.739 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:48:37.767 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 30094.6192ms
+2023-07-05 12:48:37.794 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 16603.0284ms
+2023-07-05 12:49:30.028 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:49:30.028 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:49:30.672 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:49:30.706 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:49:30.715 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 687.1433ms
+2023-07-05 12:49:30.745 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 716.7614ms
+2023-07-05 12:49:30.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:49:31.799 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:49:39.134 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:49:41.052 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:49:45.926 +05:30 [INF] Executed DbCommand (2,053ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:49:51.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:49:54.505 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:49:54.517 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:49:54.625 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:49:54.639 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:49:55.893 +05:30 [INF] Executed DbCommand (1,177ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:49:56.589 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 13795.6917ms
+2023-07-05 12:49:58.280 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:49:58.286 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:49:58.343 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 3654.3684ms
+2023-07-05 12:49:58.367 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:49:58.379 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 27389.6619ms
+2023-07-05 12:50:01.221 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 9347.4730ms
+2023-07-05 12:50:04.343 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg - -
+2023-07-05 12:50:04.646 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg - -
+2023-07-05 12:50:06.516 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg - -
+2023-07-05 12:50:06.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg - -
+2023-07-05 12:50:06.697 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg - -
+2023-07-05 12:50:06.759 +05:30 [INF] The file /uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg was not modified
+2023-07-05 12:50:06.780 +05:30 [INF] The file /uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg was not modified
+2023-07-05 12:50:07.872 +05:30 [INF] The file /uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg was not modified
+2023-07-05 12:50:07.898 +05:30 [INF] The file /uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg was not modified
+2023-07-05 12:50:07.922 +05:30 [INF] The file /uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg was not modified
+2023-07-05 12:50:07.949 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg - - - 304 - image/jpeg 3606.5173ms
+2023-07-05 12:50:07.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg - - - 304 - image/jpeg 3459.4429ms
+2023-07-05 12:50:07.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg - - - 304 - image/jpeg 1454.5187ms
+2023-07-05 12:50:07.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg - - - 304 - image/jpeg 1321.5048ms
+2023-07-05 12:50:07.996 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg - - - 304 - image/jpeg 1298.5833ms
+2023-07-05 12:50:52.423 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:50:52.501 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:50:52.541 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 117.5304ms
+2023-07-05 12:50:52.698 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:50:52.755 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:50:52.776 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:50:52.803 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:50:54.026 +05:30 [INF] Executed DbCommand (1,176ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:50:54.640 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:50:54.975 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:50:54.984 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:50:54.995 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:50:55.011 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 2173.4509ms
+2023-07-05 12:50:55.040 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:50:55.073 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:50:55.178 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 2481.8948ms
+2023-07-05 12:50:55.314 +05:30 [INF] Executed DbCommand (172ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:50:57.841 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:50:57.857 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 2737.1078ms
+2023-07-05 12:50:58.162 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:50:58.676 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 4036.1852ms
+2023-07-05 12:51:35.003 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:51:35.390 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:51:37.926 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:51:39.325 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:51:39.568 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 4786.6778ms
+2023-07-05 12:51:39.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:51:39.851 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 4460.9902ms
+2023-07-05 12:51:39.901 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:51:39.990 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:51:40.011 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:51:40.863 +05:30 [INF] Executed DbCommand (734ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:51:42.201 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:51:43.789 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 3731.8399ms
+2023-07-05 12:51:44.641 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:51:47.242 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:51:47.408 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:51:48.172 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 8452.7076ms
+2023-07-05 12:51:51.175 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:51:57.683 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:51:58.769 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:51:58.830 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:51:58.895 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 194.2717ms
+2023-07-05 12:51:59.228 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:51:59.249 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 14608.5743ms
+2023-07-05 12:54:52.893 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:54:52.905 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:54:53.100 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:54:53.116 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:54:53.126 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 233.6890ms
+2023-07-05 12:54:53.203 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 298.5537ms
+2023-07-05 12:54:53.276 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:54:53.277 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 46
+2023-07-05 12:54:53.324 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:54:53.335 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:54:53.343 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:54:53.369 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:54:53.383 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:54:53.413 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:54:53.860 +05:30 [INF] Executed DbCommand (389ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:54:54.558 +05:30 [INF] Executed DbCommand (375ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:54:54.723 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:54:54.757 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:54:54.779 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 1319.5041ms
+2023-07-05 12:54:54.804 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 635.9349ms
+2023-07-05 12:54:54.827 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:54:54.858 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:54:54.887 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 1610.8345ms
+2023-07-05 12:54:54.905 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 46 - 200 - text/plain;+charset=utf-8 1628.4106ms
+2023-07-05 12:55:32.124 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:55:32.935 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:55:34.881 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:55:34.908 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:55:34.923 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 2799.5309ms
+2023-07-05 12:55:34.935 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 1999.1850ms
+2023-07-05 12:55:35.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:55:35.700 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:55:35.933 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:55:35.984 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:55:37.355 +05:30 [INF] Executed DbCommand (189ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:55:37.838 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:55:38.147 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 987.648ms
+2023-07-05 12:55:38.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:55:38.871 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:55:38.898 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:55:38.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 3716.9633ms
+2023-07-05 12:55:38.956 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:55:38.992 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:55:40.069 +05:30 [INF] Executed DbCommand (591ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:55:40.244 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:55:40.270 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 851.3783ms
+2023-07-05 12:55:40.442 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:55:40.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2181.8810ms
+2023-07-05 12:56:20.352 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-05 12:56:20.372 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-05 12:56:20.981 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:56:21.006 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:56:21.136 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 781.9036ms
+2023-07-05 12:56:21.183 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 811.3260ms
+2023-07-05 12:56:21.297 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-05 12:56:21.452 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:56:22.130 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:56:22.362 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:56:23.699 +05:30 [INF] Executed DbCommand (731ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-05 12:56:26.025 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:56:26.574 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 3914.173ms
+2023-07-05 12:56:26.779 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-05 12:56:26.844 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:56:26.890 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:56:27.419 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:56:27.432 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 6135.0517ms
+2023-07-05 12:56:28.136 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:56:29.595 +05:30 [INF] Executed DbCommand (1,355ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-05 12:56:30.683 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:56:30.715 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 2492.7739ms
+2023-07-05 12:56:30.770 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:56:30.819 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 4039.1635ms
+2023-07-05 12:56:51.488 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:56:51.601 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:56:51.629 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 141.3019ms
+2023-07-05 12:56:51.924 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-05 12:56:52.212 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:56:52.243 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:56:52.299 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:56:52.518 +05:30 [INF] Executed DbCommand (72ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:56:52.601 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:56:52.663 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 245.9026ms
+2023-07-05 12:56:52.830 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:56:52.848 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 200 - text/plain;+charset=utf-8 924.3848ms
+2023-07-05 12:57:25.511 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:57:25.728 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:57:25.749 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 236.9711ms
+2023-07-05 12:57:25.800 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 44
+2023-07-05 12:57:25.825 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:57:25.833 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:57:25.861 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:57:25.984 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:57:26.130 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:57:26.193 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 294.3326ms
+2023-07-05 12:57:26.315 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:57:26.345 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 44 - 200 - text/plain;+charset=utf-8 546.7042ms
+2023-07-05 12:57:38.773 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:57:38.958 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:57:40.063 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:57:40.116 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:57:40.129 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 1360.7815ms
+2023-07-05 12:57:40.152 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 1194.1561ms
+2023-07-05 12:57:40.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:57:40.595 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:57:40.626 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:57:40.644 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:57:40.876 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:57:40.950 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:57:41.026 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 228.239ms
+2023-07-05 12:57:41.065 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Doctor - -
+2023-07-05 12:57:41.092 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:57:41.106 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:57:41.124 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 940.2394ms
+2023-07-05 12:57:41.155 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:57:41.203 +05:30 [INF] Route matched with {action = "GetEmployees", controller = "Doctor"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Doctor]]] GetEmployees() on controller Hospital_Mangement.Controllers.DoctorController (Hospital-Mangement).
+2023-07-05 12:57:41.329 +05:30 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[Docter_Id], [d].[DocImagePath], [d].[Docter_Email], [d].[Docter_Phone], [d].[Docter_Specialist], [d].[Doctor_Name]
+FROM [doctors] AS [d]
+2023-07-05 12:57:41.461 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Doctor, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:57:42.824 +05:30 [INF] Executed action Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement) in 1563.586ms
+2023-07-05 12:57:42.937 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.DoctorController.GetEmployees (Hospital-Mangement)'
+2023-07-05 12:57:43.344 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg - -
+2023-07-05 12:57:43.345 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg - -
+2023-07-05 12:57:43.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg - -
+2023-07-05 12:57:43.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg - -
+2023-07-05 12:57:43.573 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Doctor - - - 200 - application/json;+charset=utf-8 2509.5599ms
+2023-07-05 12:57:43.983 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg - -
+2023-07-05 12:57:44.710 +05:30 [INF] The file /uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg was not modified
+2023-07-05 12:57:45.820 +05:30 [INF] The file /uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg was not modified
+2023-07-05 12:57:45.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/dae3d1dc-23ab-4977-8a8c-35adb3ac4f77.jpg - - - 304 - image/jpeg 2484.5099ms
+2023-07-05 12:57:45.857 +05:30 [INF] The file /uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg was not modified
+2023-07-05 12:57:45.877 +05:30 [INF] The file /uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg was not modified
+2023-07-05 12:57:45.894 +05:30 [INF] The file /uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg was not modified
+2023-07-05 12:57:46.173 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/2c0a87de-6b13-46cc-af7b-bfaec108dd92.jpg - - - 304 - image/jpeg 2379.5211ms
+2023-07-05 12:57:47.291 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/3bb5cffa-dea8-4d6e-a8a1-b761a39c64fd.jpg - - - 304 - image/jpeg 3794.5597ms
+2023-07-05 12:57:51.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/1147dc4b-0a0d-4f0e-86dd-684e63a51d21.jpg - - - 304 - image/jpeg 7526.8724ms
+2023-07-05 12:57:54.191 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/uploads/doctor/ad22726d-a2cd-4444-b61a-265bed4d1960.jpg - - - 304 - image/jpeg 10847.0357ms
+2023-07-05 12:58:34.324 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-05 12:58:34.388 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:34.442 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 118.1179ms
+2023-07-05 12:58:34.530 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Patients application/json 209
+2023-07-05 12:58:34.547 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:34.575 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-05 12:58:34.658 +05:30 [INF] Route matched with {action = "PostPatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Patient]] PostPatient(Hospital_Mangement.Models.Patient) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:58:41.504 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-05 12:58:42.006 +05:30 [INF] Executed DbCommand (285ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [patients] ([BookingDate], [BookingTime], [Docter_Id], [DoctorDocter_Id], [Patient_Address], [Patient_Age], [Patient_Disease], [Patient_Name], [Patient_PhoneNumber])
+OUTPUT INSERTED.[Patient_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-05 12:58:42.077 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:42.152 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 659.2086ms
+2023-07-05 12:58:42.240 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Patients application/json 209
+2023-07-05 12:58:42.391 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:42.408 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-05 12:58:42.423 +05:30 [INF] Route matched with {action = "PostPatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Patient]] PostPatient(Hospital_Mangement.Models.Patient) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:58:43.756 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Patients application/json 209
+2023-07-05 12:58:43.961 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:43.974 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-05 12:58:43.989 +05:30 [INF] Route matched with {action = "PostPatient", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Hospital_Mangement.Models.Patient]] PostPatient(Hospital_Mangement.Models.Patient) on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:58:44.804 +05:30 [INF] Executed DbCommand (764ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [patients] ([BookingDate], [BookingTime], [Docter_Id], [DoctorDocter_Id], [Patient_Address], [Patient_Age], [Patient_Disease], [Patient_Name], [Patient_PhoneNumber])
+OUTPUT INSERTED.[Patient_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-05 12:58:45.320 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [patients] ([BookingDate], [BookingTime], [Docter_Id], [DoctorDocter_Id], [Patient_Address], [Patient_Age], [Patient_Disease], [Patient_Name], [Patient_PhoneNumber])
+OUTPUT INSERTED.[Patient_Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-05 12:58:46.232 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hospital_Mangement.Models.Patient'.
+2023-07-05 12:58:46.232 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hospital_Mangement.Models.Patient'.
+2023-07-05 12:58:46.234 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Hospital_Mangement.Models.Patient'.
+2023-07-05 12:58:47.237 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement) in 3280.2337ms
+2023-07-05 12:58:47.238 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement) in 3212.3552ms
+2023-07-05 12:58:47.637 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement) in 12935.7121ms
+2023-07-05 12:58:48.423 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-05 12:58:48.453 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-05 12:58:48.486 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.PostPatient (Hospital-Mangement)'
+2023-07-05 12:58:48.504 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Patients application/json 209 - 201 - application/json;+charset=utf-8 6264.4818ms
+2023-07-05 12:58:48.524 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Patients application/json 209 - 201 - application/json;+charset=utf-8 13993.2715ms
+2023-07-05 12:58:48.544 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Patients application/json 209 - 201 - application/json;+charset=utf-8 4788.0292ms
+2023-07-05 12:58:49.799 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-05 12:58:50.167 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Patients - -
+2023-07-05 12:58:52.236 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:52.633 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:52.666 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 2866.6675ms
+2023-07-05 12:58:52.690 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Patients - - - 204 - - 2523.5755ms
+2023-07-05 12:58:52.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-05 12:58:53.309 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:53.441 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:58:54.009 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:58:55.170 +05:30 [INF] Executed DbCommand (382ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-05 12:58:56.230 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:58:56.866 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 2158.6016ms
+2023-07-05 12:58:57.107 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7092/api/Patients - -
+2023-07-05 12:58:57.178 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:58:57.194 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:58:57.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 4374.7413ms
+2023-07-05 12:58:57.255 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:58:57.330 +05:30 [INF] Route matched with {action = "Getpatients", controller = "Patients"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Hospital_Mangement.Models.Patient]]] Getpatients() on controller Hospital_Mangement.Controllers.PatientsController (Hospital-Mangement).
+2023-07-05 12:58:58.289 +05:30 [INF] Executed DbCommand (568ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Patient_Id], [p].[BookingDate], [p].[BookingTime], [p].[Docter_Id], [p].[DoctorDocter_Id], [p].[Patient_Address], [p].[Patient_Age], [p].[Patient_Disease], [p].[Patient_Name], [p].[Patient_PhoneNumber]
+FROM [patients] AS [p]
+2023-07-05 12:58:58.370 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hospital_Mangement.Models.Patient, Hospital-Mangement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-05 12:58:58.404 +05:30 [INF] Executed action Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement) in 716.5697ms
+2023-07-05 12:58:58.487 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.PatientsController.Getpatients (Hospital-Mangement)'
+2023-07-05 12:58:58.506 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7092/api/Patients - - - 200 - application/json;+charset=utf-8 1399.3085ms
+2023-07-05 12:59:21.510 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:59:21.948 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:59:23.377 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Token - -
+2023-07-05 12:59:23.496 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 1986.3014ms
+2023-07-05 12:59:23.732 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-05 12:59:24.811 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:59:25.553 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:59:25.571 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Token - - - 204 - - 2193.3296ms
+2023-07-05 12:59:25.599 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:59:25.639 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:59:25.724 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7092/api/Token application/json 47
+2023-07-05 12:59:26.416 +05:30 [INF] Executed DbCommand (686ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:59:26.668 +05:30 [INF] CORS policy execution successful.
+2023-07-05 12:59:27.023 +05:30 [INF] Executing endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:59:27.027 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:59:27.038 +05:30 [INF] Route matched with {action = "Post", controller = "Token"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hospital_Mangement.Dto.UserDto) on controller Hospital_Mangement.Controllers.TokenController (Hospital-Mangement).
+2023-07-05 12:59:27.072 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 1348.9027ms
+2023-07-05 12:59:27.479 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:59:27.484 +05:30 [INF] Executed DbCommand (360ms) [Parameters=[@__username_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [users] AS [u]
+WHERE [u].[Username] = @__username_0
+2023-07-05 12:59:27.571 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 200 - text/plain;+charset=utf-8 3838.8447ms
+2023-07-05 12:59:27.646 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-07-05 12:59:27.696 +05:30 [INF] Executed action Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement) in 584.9681ms
+2023-07-05 12:59:27.708 +05:30 [INF] Executed endpoint 'Hospital_Mangement.Controllers.TokenController.Post (Hospital-Mangement)'
+2023-07-05 12:59:27.731 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7092/api/Token application/json 47 - 200 - text/plain;+charset=utf-8 2008.1450ms
+2023-07-05 12:59:49.382 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 12:59:49.682 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 13:00:01.183 +05:30 [INF] CORS policy execution successful.
+2023-07-05 13:00:07.876 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 13:00:08.447 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7092/api/Doctor - -
+2023-07-05 13:00:15.909 +05:30 [INF] CORS policy execution successful.
+2023-07-05 13:00:20.161 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 30779.6006ms
+2023-07-05 13:00:27.763 +05:30 [INF] CORS policy execution successful.
+2023-07-05 13:00:34.181 +05:30 [INF] CORS policy execution successful.
+2023-07-05 13:00:37.958 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 48275.8436ms
+2023-07-05 13:00:53.614 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 45738.0294ms
+2023-07-05 13:01:28.478 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7092/api/Doctor - - - 204 - - 80030.4386ms
